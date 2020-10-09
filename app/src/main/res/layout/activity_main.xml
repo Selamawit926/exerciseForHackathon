@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/backgroundgradient">
+
+    <ImageView
+        android:layout_width="126dp"
+        android:layout_height="176dp"
+        android:src="@drawable/treelogo"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="130dp"
+        />
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:hint="@string/user_name"
+        android:textSize="20sp"
+        android:drawableLeft="@drawable/ic_action_user"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="30dp"/>
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:hint="Password"
+        android:textSize="20sp"
+        android:drawableLeft="@drawable/ic_action_pass"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="30dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="50dp"/>
+
+
+</RelativeLayout>
